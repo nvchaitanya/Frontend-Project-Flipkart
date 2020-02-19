@@ -1,6 +1,6 @@
 # Frontend-Project-Flipkart
 
-### Flipkart Website Clone(HTML,CSS,JAVASCRIPT,JQUERY,BOOTSTRAP)
+### Flipkart Website Clone  (HTML,CSS,JAVASCRIPT,JQUERY,BOOTSTRAP)
 
 1.Initially the Project starts with the Landing page.
             ![Landing Page](/home/chaitanya/projects/masai/Frontend-Project-Flipkart/Screenshots/1_LandingPage.png)
