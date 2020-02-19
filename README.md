@@ -28,4 +28,4 @@
 8.The Added Products will be in a newpage while clicking the Items Category in the Header.
             ![Added products](/Screenshots/Products.png)
 
-    GitHub Profile link : https://github.com/nvchaitanya/Frontend-Project-Flipkart
+    GitHub Project link :https://github.com/nvchaitanya/Frontend-Project-Flipkart
