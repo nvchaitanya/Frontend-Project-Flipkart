@@ -30,4 +30,4 @@
 
 
 
-    GitHub Profile link --> https://github.com/nvchaitanya/Frontend-Project-Flipkart
+    GitHub Profile link : https://github.com/nvchaitanya/Frontend-Project-Flipkart
