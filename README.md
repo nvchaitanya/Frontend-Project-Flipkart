@@ -22,7 +22,7 @@
 
 7.The body part and the Footer part of the Flikart Website is as shown
             ![Body1](/Screenshots/BodyPage1.png)
-            ![Body2](/ScreenShots/BodyPage2.png)
+            ![Body2](/Screenshots/BodyPage2.png)
             ![Footer](/Screenshots/Footer.png)
 
 8.The Added Products will be in a newpage while clicking the Items Category in the Header.
