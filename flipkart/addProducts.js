@@ -7,9 +7,9 @@ $(document).ready(function(){
         localStorage.setItem('myproducts',products)
     }
     
-})
+// })
 
-$(document).ready(function () {
+// $(document).ready(function () {
     var catData = [{ "cat": "Electronics", "subcat": ["Mobile", "Speakers", "Laptops"] }, { "cat": "TVs & Appliances", "subcat": ["Televisions", "Air Conditions", "Washing Machines"] },
     { "cat": "Men", "subcat": ["FootWear", "Clothing", "Men's Grooming"] }, { "cat": "Women", "subcat": ["Sandals", "Accessories", "Clothing"] },
     { "cat": "Baby & Kids", "subcat": ["Kid's Clothing", "Baby care", "Toys"] }, { "cat": "Home & Furniture", "subcat": ["Bed Room Furniture", "Living Room Furniture"] },
