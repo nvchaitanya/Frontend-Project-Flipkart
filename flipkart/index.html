@@ -12,7 +12,7 @@
 
    <link rel="stylesheet" type="text/css" href="style.css">
 
-   <title>index.html</title>
+   <title>index</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
    <!----------------------------------Navbar------------------------------------------------->
    <div class="bg-primary">
       <div class="container">
-         <nav class="navbar navbar-expand-lg navbar-light ">
+         <nav class="navbar navbar-expand-lg navbar-light sticky-top">
             <a class="navbar-brand" href="#">
                <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdd-qzkVUo0dBoxPSfHqX6f1uOkJfLOcKdExSY-s0PiK3Ox3DY"
@@ -43,7 +43,6 @@
 
                <ul class="navbar-nav mr-auto ml-3">
                   <li class="nav-item">
-                     <!-- <a class="nav-link text-white ml-5" href="#">More</a> -->
                      <p id="dispUser" class="text-white mt-2 font-weight-bold"></p>
                   </li>
                   <div id="hidelogin">
@@ -108,7 +107,9 @@
       <div class="mt-1 p-0">
          <ul class="nav justify-content-center text-dark">
             <li class="nav-item  dropdown">
-               <a class="nav-link active text-dark font-weight-bold dropbtn" href="#">Electronics</a>
+               <a class="nav-link active text-dark font-weight-bold dropbtn" href="#">Electronics
+                  <span class="small text-muted"></span>
+               </a>
                <div class="dropdown-content p-0">
                   <span class="float-left px-4">
                      <a href="loaddata.html?product=Mobile"> <small
@@ -192,7 +193,7 @@
                <a class="nav-link active text-dark font-weight-bold dropbtn" href="#">Men</a>
                <div class="dropdown-content p-0">
                   <span class="float-left px-4">
-                     <a href="loaddata.html?product=Footwear"> <small
+                     <a href="loaddata.html?product=FootWear"> <small
                            class="text-dark font-weight-bold">FootWear</small></a><br>
                      <a href="#"><small class="text-muted">Sport Shoes</small></a><br>
                      <a href="#"><small class="text-muted">Causal Shoes</small></a><br>
@@ -224,7 +225,7 @@
                      <a href="#"><small class="text-dark font-weight-bold">Fabrics</small></a><br>
                   </span>
                   <span class="float-left px-4">
-                     <a href="loaddata.html?product=Min's Grooming"><small class="text-dark font-weight-bold">Men's
+                     <a href="loaddata.html?product=Grooming"><small class="text-dark font-weight-bold">
                            Grooming</small></a><br>
                      <a href="#"><small class="text-muted">BackPack</small></a><br>
                      <a href="#"><small class="text-muted">Wallets</small></a><br>
@@ -267,7 +268,7 @@
                      <a href="#"><small class="text-muted">Belts</small></a><br>
                   </span>
                   <span class="float-left px-4">
-                     <a href="loaddata.html?product=Clothing"><small
+                     <a href="loaddata.html?product=Party Wear"><small
                            class="text-dark font-weight-bold">Clothing</small></a><br>
                      <a href="#"><small class="text-muted">Swetters</small></a><br>
                      <a href="#"><small class="text-muted">Pull overs</small></a><br>
@@ -398,8 +399,7 @@
                </div>
             </li>
             <li class="nav-item">
-               <a href="addproducts.html"
-                  class="nav-link text-dark font-weight-bold">Add
+               <a href="addproducts.html" class="nav-link text-dark font-weight-bold">Add
                   Product <span> <i class="fas fa-plus-circle"></i></span></a>
             </li>
          </ul>
@@ -870,11 +870,11 @@
    </div>
 
    <!--------------------------------Footer--------------------------------------------->
-   <div class="container-fluid bg-dark p-5">
+   <div class="container-fluid bg-dark py-5 mt-2">
       <div class="row">
-         <div class="col-8">
+         <div class="col-7">
             <div class="row">
-               <div class="col-6 col-md-4 col-lg-3 d-flex flex-column mb-2 small">
+               <div class="col-6 col-md-4 col-lg-3 d-flex flex-column mb-2 small pl-3">
                   <small class="text-warning mb-2">ABOUT</small>
                   <a href="#" class="text-light">Contact Us</a>
                   <a href="#" class="text-light">About Us</a>
@@ -882,7 +882,7 @@
                   <a href="#" class="text-light">Flipkart Stories</a>
                   <a href="#" class="text-light">Press</a>
                </div>
-               <div class="col-6 col-md-4 col-lg-3 d-flex flex-column mb-2 small">
+               <div class="col-6 col-md-4 col-lg-3 d-flex flex-column mb-2 small pl-3">
                   <small class="text-warning mb-2">HELP</small>
                   <a href="#" class="text-light">Payments</a>
                   <a href="#" class="text-light">Shipping</a>
@@ -890,7 +890,7 @@
                   <a href="#" class="text-light">FAQ</a>
                   <a href="#" class="text-light">Report Infringement</a>
                </div>
-               <div class="col-6 col-md-4 col-lg-3 d-flex flex-column mb-2 small">
+               <div class="col-6 col-md-4 col-lg-3 d-flex flex-column mb-2 small pl-3">
                   <small class="text-warning mb-2">POLICY</small>
                   <a href="#" class="text-light">Return Policy</a>
                   <a href="#" class="text-light">Terms Of Use</a>
@@ -899,7 +899,7 @@
                   <a href="#" class="text-light">Sitemap</a>
                   <a href="#" class="text-light">EPR Compliance</a>
                </div>
-               <div class="col-6 col-md-4 col-lg-3 d-flex flex-column mb-2 small">
+               <div class="col-6 col-md-4 col-lg-3 d-flex flex-column mb-2 small pl-3">
                   <small class="text-warning mb-2">SOCIAL</small>
                   <a href="#" class="text-light">Facebook</a>
                   <a href="#" class="text-light">Twitter</a>
@@ -907,7 +907,7 @@
                </div>
             </div>
          </div>
-         <div class="col-4 border-left">
+         <div class="col-5 border-left">
             <div class="row">
                <div class="col-11 col-md-8 col-lg-6 d-flex flex-column mb-2">
                   <small class="text-warning mb-2">Mail Us:</small>
@@ -919,38 +919,39 @@
                <div class="col-11 col-md-8 col-lg-6 d-flex flex-column">
                   <small class="text-warning mb-2">Registered Office Address:</small>
                   <small class="text-light">Flipkart Internet Private Limited,<br>Buildings Alyssa, Begonia &<br>
-                     Clove Embassy Tech Village,<br>Outer Ring Road, Devarabeesanahalli Village,<br>Bengaluru,
+                     Clove Embassy Tech Village,<br>Outer Ring Road, Devarabeesanahalli,<br>Bengaluru,
                      560103,<br>
-                     Karnataka, India,<br>CIN : U51109KA2012PTC066107<br>Telephone: 1800 208 9898</small><br>
+                     Karnataka, India,<br>CIN : U51109KA2012PT<br>Telephone: 1800 208 9898</small><br>
                </div>
             </div>
          </div>
       </div>
    </div>
-   <!--------------------------------Footer logos and Payements------------------------->
+
+   <!-------------------------------Footer logos and Payements ------------------------->
    <div class="container-fluid bg-dark py-3 footerhr">
       <div class="row">
          <div class="col-6">
             <div class="row">
-               <div class="col-10 col-md-6 col-lg-2 offset-lg-1 mb-2">
+               <div class="col-10 col-md-6 col-lg-2 ml-5 mb-2">
                   <span><img
                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K"
                         alt=""></span>
                   <span class="text-light">Sell On Flikart</span>
                </div>
-               <div class="col-10 col-md-6 col-lg-2 offset-lg-1 mb-2">
+               <div class="col-10 col-md-6 col-lg-2 ml-5 mb-2">
                   <span><img
                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0zLTNoMjB2MjBILTN6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNDkyIDNDNi4zNTMgMyAzIDYuMzYgMyAxMC41YzAgNC4xNCAzLjM1MyA3LjUgNy40OTIgNy41QzE0LjY0IDE4IDE4IDE0LjY0IDE4IDEwLjUgMTggNi4zNiAxNC42NCAzIDEwLjQ5MiAzem0zLjE4IDEyTDEwLjUgMTMuMDg4IDcuMzI3IDE1bC44NC0zLjYwN0w1LjM3IDguOTdsMy42OS0uMzE1TDEwLjUgNS4yNWwxLjQ0IDMuMzk4IDMuNjkuMzE1LTIuNzk4IDIuNDIyLjg0IDMuNjE1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
                         alt=""></span>
                   <span class="text-light">Advertise</span>
                </div>
-               <div class="col-10 col-md-6 col-lg-2 offset-lg-1 mb-2">
+               <div class="col-10 col-md-6 col-lg-2 ml-5 mb-2">
                   <span><img
                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg=="
                         alt=""></span>
                   <span class="text-light">Gift Cards</span>
                </div>
-               <div class="col-10 col-md-6 col-lg-2 offset-lg-1 mb-2">
+               <div class="col-10 col-md-6 col-lg-2 ml-5 mb-2">
                   <span><img
                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2LjVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
                         alt=""></span>
@@ -960,20 +961,18 @@
          </div>
          <div class="col-6">
             <div class="row">
-               <div class="col-12 col-md-12 col-lg-3 offset-lg-0 offset-xl-1 mb-2">
+               <div class="col-12 col-md-12 col-lg-4 mb-2">
                   <span class="text-light">© 2007-2020 Flipkart.com.</span>
                </div>
-               <div class="col-12 col-md-12 col-lg-7 offset-lg-1 ">
+               <div class="col-lg-8 d-none d-lg-block">
                   <span><img
-                        src="https://lh3.googleusercontent.com/proxy/PJxNsZDmiNki_nxpn8qc_NaGRJRT8tmcct5erqb97X7rYOalcaruJZpwSmw6WLXKPkVYKx3NKONadHUMFHqxvbP0Jjda3Ti0CvCCTIMMRXj0Il3CKIE_eHbBb9LB8OoIhTjDjFVEGeAAyf5SPxg7nA"
-                        class="paymentimg"></span>
+                        src="https://pluspng.com/img-png/credit-card-png-hd-major-credit-card-logo-png-clipart-8552.png"
+                        class="paymentimg" alt=""></span>
                </div>
             </div>
          </div>
       </div>
    </div>
-
-   <!-- </div> -->
 
 
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->

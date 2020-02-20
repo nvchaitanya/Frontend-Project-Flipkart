@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 // $(document).ready(function () {
     var catData = [{ "cat": "Electronics", "subcat": ["Mobile", "Speakers", "Laptops"] }, { "cat": "TVs & Appliances", "subcat": ["Televisions", "Air Conditions", "Washing Machines"] },
-    { "cat": "Men", "subcat": ["FootWear", "Clothing", "Men's Grooming"] }, { "cat": "Women", "subcat": ["Sandals", "Accessories", "Clothing"] },
+    { "cat": "Men", "subcat": ["FootWear", "Clothing", "Grooming"] }, { "cat": "Women", "subcat": ["Sandals", "Accessories", "Party Wear"] },
     { "cat": "Baby & Kids", "subcat": ["Kid's Clothing", "Baby care", "Toys"] }, { "cat": "Home & Furniture", "subcat": ["Bed Room Furniture", "Living Room Furniture"] },
     { "cat": "Sports,Books & More", "subcat": ["Books", "Sports"] }]
     for (var i = 0; i < catData.length; i++) {
