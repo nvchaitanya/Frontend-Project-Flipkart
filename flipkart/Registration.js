@@ -41,7 +41,7 @@ function register(display) {
     }
 
     xhr.onerror = function () {
-        console.log("Error in HTTP Request!")class="back"
+        console.log("Error in HTTP Request!")
     }
 
 }
